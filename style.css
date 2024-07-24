@@ -889,3 +889,157 @@ footer .about{
     transform: translateY(120px);
     cursor: pointer;
 }
+@media(max-width:480px) {
+    .img{
+        width: 1200px;
+        margin-left: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+@media(max-width: 480px){
+    .frame{
+        display: block;
+        margin-top: 50px;
+        transform: translateY(-100px);
+        margin-left: 500px;
+        width: 500px;
+    }
+    .frame h1{
+        text-align: center;
+        margin-left: -200px;
+    }
+    .frame h3{
+        text-align: center;
+        margin-left: -200px;
+    }
+}
+@media(max-width: 480px){
+    .layout{
+        margin-left: 50px;
+    }
+    .layout1{
+        display: block;
+    }
+    .layout2{
+        display: block;
+    }
+    .layout img{
+        width: 800px;
+        margin-left: 180px;
+    }
+    .layout h3{
+        color: white;
+    }
+    .circle{
+        display: none;
+    }
+}
+@media(max-width: 480px){
+    .logos{
+        display: none;
+    }
+}
+@media(max-width:480px){
+    .image2{
+       display: none;
+    }
+}
+@media(max-width: 480px){
+    .google .img{
+        width: 1200px;
+        margin-left: 20px;
+        transform: translateY(-150px);
+    }
+    .flexport{
+        display: none;
+    }
+    .flexport h1{
+        color: white;
+    }
+}
+@media(max-width:480px){
+    .our{
+        margin-top: 400px;
+        margin-left: 30px;
+    }
+    .our h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .h5 h5{
+        display: none;
+    }
+}
+@media(max-width:480px){
+    .business{
+        display: none;
+    }
+}
+@media(max-width:480px){
+    .build{
+        display: none;
+        height: 100px;
+    }
+}
+@media(max-width:480px){
+    .design{
+        display: none;
+        height: 0;
+    }
+}
+@media(max-width:480px){
+    .images .images1{
+        width: 1200px;
+        margin-left: 20px;
+    }
+}
+@media(max-width:480px){
+    .get{
+        width: 1200px;
+        margin-top: -400px;
+        margin-left: 20px;
+    }
+    .get_img .img1{
+        margin-left: -300px;
+    }
+    .get button{
+        margin-left: -300px;
+    }
+    .get h5{
+        margin-left: -300px;
+    }
+}
+@media(max-width:480px){
+    .about2{
+        display: none;
+    }
+    .support{
+        display: none;
+    }
+    .showrooms2{
+        display: none;
+    }
+    .office2{
+        display: none;
+    }
+    footer{
+        width: 1200px;
+        margin-left: 20px;
+    }
+    .follow{
+        margin-left: -400px;
+    }
+    .follow h3{
+        margin-top: 10px;
+    }
+    .join{
+        margin-left: -300px;
+    }
+}
+@media(max-width:480px){
+    nav{
+        width: 1200px;
+        margin-left: 20px;
+    }
+}
