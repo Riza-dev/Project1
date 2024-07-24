@@ -519,6 +519,7 @@ hr{
     background-image: url("img/Rectangle\ \(30\).png");
     background-size: contain;
     background-repeat: no-repeat;
+    transform: translateY(300px);
 }
 .get{
     width: 1200px;
@@ -891,10 +892,15 @@ footer .about{
 }
 @media(max-width:480px) {
     .img{
-        width: 1200px;
-        margin-left: 20px;
+        width: 359px;
         background-size: contain;
         background-repeat: no-repeat;
+    }
+    .room{
+        display: none;
+    }
+    hr{
+        display: none;
     }
 }
 @media(max-width: 480px){
@@ -902,21 +908,26 @@ footer .about{
         display: block;
         margin-top: 50px;
         transform: translateY(-100px);
-        margin-left: 500px;
-        width: 500px;
+        margin-left: -300px;
     }
     .frame h1{
         text-align: center;
-        margin-left: -200px;
+        margin-left: -225px;
+        font-size: 50px;
+        transform: translateY(-400px);
     }
     .frame h3{
         text-align: center;
-        margin-left: -200px;
+        margin-left: -230px;
+        line-height: 20px;
+        font-size: 15px;
+        transform: translateY(-400px);
     }
 }
 @media(max-width: 480px){
     .layout{
-        margin-left: 50px;
+        margin-left: -50px;
+        transform: translateY(-300px);
     }
     .layout1{
         display: block;
@@ -925,8 +936,10 @@ footer .about{
         display: block;
     }
     .layout img{
-        width: 800px;
-        margin-left: 180px;
+        width: 330px;
+        margin-left: 67px;
+        height: 200px;
+        transform: translateY(-150px);
     }
     .layout h3{
         color: white;
@@ -946,16 +959,26 @@ footer .about{
     }
 }
 @media(max-width: 480px){
+    .our{
+        width: 300px;
+        transform: translateY(-1100px);
+    }
     .google .img{
-        width: 1200px;
-        margin-left: 20px;
-        transform: translateY(-150px);
+        width: 359px;
+        transform: translateY(-1100px);
     }
     .flexport{
         display: none;
     }
     .flexport h1{
-        color: white;
+        display: none;
+    }
+    .frame_star{
+        display: none;
+    }
+    .frame_amazing{
+        transform: translateY(-120px);
+        margin-left: -80px;
     }
 }
 @media(max-width:480px){
@@ -990,24 +1013,25 @@ footer .about{
 }
 @media(max-width:480px){
     .images .images1{
-        width: 1200px;
-        margin-left: 20px;
+        width: 359px;
+        transform: translateY(-1500px);
     }
 }
 @media(max-width:480px){
     .get{
-        width: 1200px;
-        margin-top: -400px;
-        margin-left: 20px;
+        width: 359px;
+        margin-top: -1350px;
     }
-    .get_img .img1{
-        margin-left: -300px;
+    .get_img {
+        display: none;
     }
     .get button{
-        margin-left: -300px;
+        margin-left: -850px;
+        margin-top: 250px;
     }
     .get h5{
-        margin-left: -300px;
+        margin-left: -850px;
+        margin-top: 100px;
     }
 }
 @media(max-width:480px){
@@ -1024,22 +1048,24 @@ footer .about{
         display: none;
     }
     footer{
-        width: 1200px;
-        margin-left: 20px;
+        width: 359px;
+        height: 1200px;
     }
     .follow{
-        margin-left: -400px;
+        margin-left: -520px;
+        margin-top: 30px;
     }
     .follow h3{
         margin-top: 10px;
     }
     .join{
-        margin-left: -300px;
+        margin-left: -770px;
+        margin-top: -40px;
+        
     }
 }
 @media(max-width:480px){
     nav{
-        width: 1200px;
-        margin-left: 20px;
+        width: 359px;
     }
 }
