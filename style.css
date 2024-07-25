@@ -892,9 +892,10 @@ footer .about{
 }
 @media(max-width:480px) {
     .img{
-        width: 359px;
+        width: 353.67px;
         background-size: contain;
         background-repeat: no-repeat;
+        margin-left: 0.32px;
     }
     .room{
         display: none;
@@ -908,7 +909,8 @@ footer .about{
         display: block;
         margin-top: 50px;
         transform: translateY(-100px);
-        margin-left: -300px;
+        margin-left: 240px;
+        width: 100px;
     }
     .frame h1{
         text-align: center;
@@ -926,7 +928,7 @@ footer .about{
 }
 @media(max-width: 480px){
     .layout{
-        margin-left: -50px;
+        margin-left: -55px;
         transform: translateY(-300px);
     }
     .layout1{
@@ -964,7 +966,7 @@ footer .about{
         transform: translateY(-1100px);
     }
     .google .img{
-        width: 359px;
+        width: 353.67px;
         transform: translateY(-1100px);
     }
     .flexport{
@@ -996,6 +998,7 @@ footer .about{
 }
 @media(max-width:480px){
     .business{
+        width: 353.67px;
         display: none;
     }
 }
@@ -1013,13 +1016,13 @@ footer .about{
 }
 @media(max-width:480px){
     .images .images1{
-        width: 359px;
+        width: 353.67px;
         transform: translateY(-1500px);
     }
 }
 @media(max-width:480px){
     .get{
-        width: 359px;
+        width: 353.67px;
         margin-top: -1350px;
     }
     .get_img {
@@ -1048,7 +1051,7 @@ footer .about{
         display: none;
     }
     footer{
-        width: 359px;
+        width: 353.67px;
         height: 1200px;
     }
     .follow{
@@ -1059,13 +1062,13 @@ footer .about{
         margin-top: 10px;
     }
     .join{
-        margin-left: -770px;
+        margin-left: -775px;
         margin-top: -40px;
         
     }
 }
 @media(max-width:480px){
     nav{
-        width: 359px;
+        width: 358px;
     }
 }
